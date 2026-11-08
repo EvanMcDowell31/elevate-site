@@ -345,6 +345,10 @@ address { font-style: normal; font-size: 1.25rem; font-weight: 600; line-height:
 .legal { font-size: .85rem; line-height: 1.55; }
 .legal strong { color: var(--snow); }
 @media (min-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr 1.6fr; gap: 40px; } }
+.footer-base { margin-top: 36px; }
+.footer-base p { padding-top: 20px; border-top: 1px solid var(--line); font-size: .82rem; }
+.footer-base a { color: var(--snow); text-decoration-color: rgb(243 246 240 / .35); text-underline-offset: 3px; }
+.footer-base a:hover { color: var(--leaf); }
 
 /* Phone action bar */
 .dock {
